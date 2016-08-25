@@ -22,6 +22,7 @@ $(document).ready(function () {
         var dataString = "Nome=" + name.val() + " Telefone=" + mobile.val();
 
         $(".loading").fadeIn("slow").html("<p><strong>Enviando...</strong></p>");
+        $('input[type="submit"]').prop('disabled', true);
 
         $.ajax({
             url: "https://formspree.io/contato@antiparasitario.com.br",
@@ -35,4 +36,3 @@ $(document).ready(function () {
 
     });
 })
-
