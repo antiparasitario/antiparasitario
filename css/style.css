@@ -46,7 +46,7 @@ to{opacity:1;-webkit-transform:translateY(0);-moz-transform:translateY(0);transf
 }
 .logo{text-align:center;margin:auto;}
 .logo h1{margin:auto;}
-.bg-dark{background:rgb(24,36,87);padding:10px;}
+.bg-dark{background:rgb(0,0,0);padding:10px;}
 .inline{display:inline-block;}
 .btn-large{font-size:18px;padding:20px 50px;margin:5px 10px;}
 .btn-success{background-color:#2ecc71;background-image:none;border:0;-webkit-box-shadow:0 3px 0 rgba(2,154,67,1);box-shadow:0 3px 0 rgba(2,154,67,1);line-height:1.8;}
